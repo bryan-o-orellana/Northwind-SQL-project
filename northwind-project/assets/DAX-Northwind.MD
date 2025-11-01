@@ -98,7 +98,4 @@ Some measures (such as Top N) work best in table or matrix visuals.
 ✍️ Autor: Bryan Odair Orellana Chavez
 
 
----
-
-¿Querés que te lo deje con formato más “GitHub-friendly” (colores, emojis y encabezados bonitos tipo portfolio), o preferís algo más técnico y sobrio, como documentación profesional?
 
