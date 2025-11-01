@@ -1,4 +1,4 @@
-# 🌐 Northwind Sales Analysis — SQL + Power BI Project
+no# 🌐 Northwind Sales Analysis — SQL + Power BI Project
 
 ## 📘 Overview
 This project analyzes sales data from the **Northwind** sample database using **SQL Server** and visualizes key business metrics in **Power BI**.  
@@ -49,11 +49,17 @@ DimTiempo	Dimension	Date and time dimension
 🧠 SQL Topics Covered
 
 ✅ Aggregations and grouping (SUM, COUNT, AVG)
+>
 ✅ Common Table Expressions (CTEs)
+>
 ✅ Window functions: RANK(), LAG()
+>
 ✅ Stored Procedures with parameters
+>
 ✅ Data modeling for reporting
+>
 ✅ KPI and performance calculation
+>
 
 | Query Type                                           | Description                                            |
 | ---------------------------------------------------- | ------------------------------------------------------ |
@@ -110,7 +116,7 @@ The Power BI report (analisis_bi.pdf) visualizes:
 >
 ## 💬 Author
 **Bryan Odair Orellana Chávez**  
-💼 Business Intelligence & Data Analytics Enthusiast
+💼 Business Intelligence & Data Analytics
 📍 Honduras  
 📧 [Contact me on LinkedIn](https://www.linkedin.com/in/bryanxavez)
 
