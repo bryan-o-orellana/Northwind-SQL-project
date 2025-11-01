@@ -68,13 +68,13 @@ DimTiempo	Dimension	Date and time dimension
 | ⚙️ **Stored Procedure:** `sp_TopClientesPorPaisYAño` | Returns top *N* customers for a given country and year |
 >
 ## 📄 DB script creation
-📥 [DB Creation .sql]!(https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/database_creation.sql)
+📥 [DB Creation .sql]![DB Creation script](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/database_creation.sql)
 >
 ## 📄 Basic SQL scripts
-📥 [Basic queries .sql]!(https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/queries.sql)
+📥 [Basic queries .sql]![Basic queries](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/queries.sql)
 >
 ## 📄 Advanced SQL scripts
-📥 [Advanced queries .sql]! https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql
+📥 [Advanced queries .sql]![Advanced queries] https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql
 
 📈 Power BI Dashboard
 
