@@ -66,6 +66,15 @@ DimTiempo	Dimension	Date and time dimension
 | 🧮 **Year-over-Year Growth (CTE + LAG)**             | Measures growth vs. the previous year                  |
 | 🏆 **Top Customers per Country (RANK)**              | Ranks customers by sales within each country           |
 | ⚙️ **Stored Procedure:** `sp_TopClientesPorPaisYAño` | Returns top *N* customers for a given country and year |
+>
+## 📄 DB script creation
+📥 [DB Creation .sql]!(https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/database_creation.sql)
+>
+## 📄 Basic SQL scripts
+📥 [Basic queries .sql]!(https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/queries.sql)
+>
+## 📄 Advanced SQL scripts
+📥 [Advanced queries .sql]! https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql
 
 📈 Power BI Dashboard
 
