@@ -90,13 +90,16 @@ The Power BI report (analisis_bi.pdf) visualizes:
 | **Power BI**   | Data visualization & reporting  |
 | **GitHub**     | Version control & documentation |
 
-👤 Author
+## 📄 Report File
+📥 [Download Report (PDF)]![Full report](./northwind-project/assets/Northwind-project.pdf) 
 
-Bryan Orellana
+---
+
+## 💬 Author
+**Bryan Odair Orellana Chávez**  
 💼 Business Intelligence & Data Analytics Enthusiast
-📍 Honduras
-🔗 LinkedIn Profile
- (optional link)
+📍 Honduras  
+📧 [Contact me on LinkedIn](https://www.linkedin.com/in/bryanxavez)
 
 💬 Notes
 
