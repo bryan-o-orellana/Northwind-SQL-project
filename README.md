@@ -69,6 +69,9 @@ DimTiempo	Dimension	Date and time dimension
 
 📈 Power BI Dashboard
 
+## 📊 Preview
+>
+<img width="487" height="397" alt="1" src="https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/assets/preview.png" />
 The Power BI report (analisis_bi.pdf) visualizes:
 
 💰 Total Sales KPIs and YoY Growth
