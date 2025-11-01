@@ -19,17 +19,17 @@ It demonstrates SQL skills for **data analysis**, **query optimization**, and **
 📦 Northwind-SQL-Project/
 │
 ├── sql/
-│   ├── database_creation.sql              # Script to create and populate the Northwind database
-│   ├── queries.sql        # Basic analytical queries
-│   ├── advanced-queries.sql      # Advanced queries with CTEs and window functions, Stored procedures for dynamic analysis
+│   ├── database_creation.sql            # Script to create and populate the Northwind database
+│   ├── queries.sql                      # Basic analytical queries
+│   ├── advanced-queries.sql             # Advanced queries with CTEs and window functions, Stored procedures for dynamic analysis
 │            
 │
 ├── assets/
-│   ├── ERD.png                # ERD diagram of the star schema
-│   ├── Northwind-project.pdf                 # Power BI dashboard and insights
-│   ├── Northwind-project.pbix              # .pbix Full Project
-│   ├── model.png                           # Pic that I used as a reference to the model
-│   ├── DAX-Northwind.MD                          # MD file with the measures used in DAX
+│   ├── ERD.png                          # ERD diagram of the star schema
+│   ├── Northwind-project.pdf            # Power BI dashboard and insights
+│   ├── Northwind-project.pbix           # .pbix Full Project
+│   ├── model.png                        # Pic that I used as a reference to the model
+│   ├── DAX-Northwind.MD                 # MD file with the measures used in DAX
 │ 
 └── README.md                           # Project documentation
 ```
@@ -74,20 +74,21 @@ DimTiempo	Dimension	Date and time dimension
 📥 [Basic queries .sql]![Basic queries](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/queries.sql)
 >
 ## 📄 Advanced SQL scripts
-📥 [Advanced queries .sql]![Advanced queries] https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql
-
-📈 Power BI Dashboard
-
+📥 [Advanced queries .sql]![Advanced queries](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql)
+>
+>
+##📈 Power BI Dashboard
+>
 ## 📊 Preview
 >
 <img width="487" height="397" alt="1" src="https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/assets/preview.png" />
 The Power BI report (analisis_bi.pdf) visualizes:
-
+>
 💰 Total Sales KPIs and YoY Growth
 
 🛍️ Top Products & Customers charts
 
-🌍 Regional Sales by Country
+🌍  Sales by Customer
 
 🚚 Performance by Shipper
 
@@ -98,6 +99,7 @@ The Power BI report (analisis_bi.pdf) visualizes:
 | **SQL Server** | Database & query execution      |
 | **Power BI**   | Data visualization & reporting  |
 | **GitHub**     | Version control & documentation |
+>
 
 ## 📄 Report File
 📥 [Download Report (PDF)]![Full report](./northwind-project/assets/Northwind-project.pdf) 
