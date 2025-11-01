@@ -76,8 +76,8 @@ DimTiempo	Dimension	Date and time dimension
 ## 📄 Advanced SQL scripts
 📥 [Advanced queries .sql]![Advanced queries](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/SQL/advanced-queries.sql)
 >
->
-##📈 Power BI Dashboard
+---
+## 📈 Power BI Dashboard
 >
 ## 📊 Preview
 >
