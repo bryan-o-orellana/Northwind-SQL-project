@@ -1,6 +1,6 @@
 # 🧮 DAX Measures – Northwind Sales Dashboard
-
-Este archivo contiene todas las medidas DAX creadas para el modelo de datos **Northwind BI**, con el fin de analizar las ventas desde diferentes perspectivas (producto, cliente, país, transportista, tiempo y empleados).
+>
+This file contains all the DAX measures created for the **Northwind BI** data model, in order to analyze sales from different perspectives (product, customer, country, carrier, time, and employees).
 
 ---
 
@@ -11,49 +11,42 @@ Este archivo contiene todas las medidas DAX creadas para el modelo de datos **No
 Total Ventas = 
 SUM ( FactVentas[TotalVenta] )
 
--- Total de Unidades Vendidas
-Total Unidades = 
-SUM ( FactVentas[Cantidad] )
-
--- Ventas Mensuales
-Ventas Mensuales = 
-CALCULATE (
-    [Total Ventas],
-    DATESMTD ( DimTiempo[Fecha] )
-)
-
 -- Ventas Anuales
-Ventas Anuales = 
+Ventas año = 
 CALCULATE (
     [Total Ventas],
     DATESYTD ( DimTiempo[Fecha] )
 )
 
--- Top 10 Productos más Vendidos
-Top 10 Productos = 
-TOPN (
-    10,
-    SUMMARIZE (
-        DimProducto,
-        DimProducto[NombreProducto],
-        "Ventas", [Total Ventas]
-    ),
-    [Ventas],
-    DESC
-)
+-- Top Productos más Vendidos
+TopProducto = 
+VAR Top1 = 
+    TOPN(
+        1,
+        SUMMARIZE(
+            FactVentas,
+            DimProducto[Producto],
+            "Ventas", [Total Ventas]
+        ),
+        [Ventas], DESC
+    )
+RETURN
+CONCATENATEX(Top1, DimProducto[Producto], ", ")
 
--- Top 10 Clientes por Ventas
-Top 10 Clientes = 
-TOPN (
-    10,
-    SUMMARIZE (
-        DimCliente,
-        DimCliente[NombreCliente],
-        "Ventas", [Total Ventas]
-    ),
-    [Ventas],
-    DESC
-)
+-- Top Cliente por Ventas
+TopCliente = 
+VAR Top1 = 
+    TOPN(
+        1,
+        SUMMARIZE(
+            FactVentas,
+            DimCliente[Cliente],
+            "Ventas", [Total Ventas]
+        ),
+        [Ventas], DESC
+    )
+RETURN
+CONCATENATEX(Top1, DimCliente[Cliente], ", ")
 
 -- Ventas por Transportista
 Ventas por Transportista = 
@@ -84,7 +77,7 @@ CALCULATE (
 )
 
 -- Crecimiento % vs Año Anterior
-Crecimiento Anual % = 
+YoY Growth = 
 VAR VentasActual = [Total Ventas]
 VAR VentasPrevias = CALCULATE (
     [Total Ventas],
@@ -92,20 +85,20 @@ VAR VentasPrevias = CALCULATE (
 )
 RETURN
 DIVIDE ( VentasActual - VentasPrevias, VentasPrevias )
+```
+>
+📊 Notes
 
-📊 Notas
+All measures use the star model with FactVentas as the fact table and the following dimensions: DimCliente, DimEmpleado, DimShipper, DimProducto, and DimTiempo.
 
-Todas las medidas usan el modelo estrella con FactVentas como tabla de hechos y las dimensiones:
-DimCliente, DimEmpleado, DimShipper, DimProducto y DimTiempo.
+Each visual in Power BI uses one or more of these measures.
 
-Cada visual en Power BI usa una o más de estas medidas.
+Some measures (such as Top N) work best in table or matrix visuals.
 
-Algunas medidas (como Top N) funcionan mejor en visuales de tabla o matriz.
-
-📅 Última actualización: {{Fecha de hoy}}
 ✍️ Autor: Bryan Odair Orellana Chavez
 
 
 ---
 
 ¿Querés que te lo deje con formato más “GitHub-friendly” (colores, emojis y encabezados bonitos tipo portfolio), o preferís algo más técnico y sobrio, como documentación profesional?
+
