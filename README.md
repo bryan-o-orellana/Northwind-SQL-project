@@ -108,10 +108,10 @@ The Power BI report (analisis_bi.pdf) visualizes:
 >
 
 ## 📄 Report File
-📥 [Download Report (PDF)]![Full report](./northwind-project/assets/Northwind-project.pdf) 
+📥 [Download Report (PDF)](./northwind-project/assets/Northwind-project.pdf) 
 >
 ## 📄 DAX Measures
-📥 [Go to DAX measures]![DAX](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/assets/DAX-Northwind.MD) 
+📥 [Go to DAX measures](https://github.com/bryan-o-orellana/Northwind-SQL-project/blob/main/northwind-project/assets/DAX-Northwind.MD) 
 >
 >
 ## 💬 Author
