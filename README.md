@@ -1,5 +1,5 @@
-no# 🌐 Northwind Sales Analysis — SQL + Power BI Project
-
+## 🌐 Northwind Sales Analysis — SQL + Power BI Project
+---
 ## 📘 Overview
 This project analyzes sales data from the **Northwind** sample database using **SQL Server** and visualizes key business metrics in **Power BI**.  
 It demonstrates SQL skills for **data analysis**, **query optimization**, and **business intelligence reporting** — from database creation to advanced analytics and dashboards.
